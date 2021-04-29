@@ -12,33 +12,33 @@ def populate():
     python_pages = [
         {'title': 'Official Python Tutorial',
          'url': 'http://docs.python.org/3/tutorial/',
-         'views': 114, },
+         'views': 120, },
         {'title': 'How to think like a Computer Scientist',
          'url': 'http://www.greenteapress.com/thinkpython/',
-         'views': 53},
+         'views': 64},
         {'title': 'Learn python in 10 minutes',
          'url': 'http://www.korokithakis.net/tutorials/python/',
-         'views': 20}
+         'views': 6}
     ]
 
     django_pages = [
         {'title': 'Official Django Tutorial',
          'url': 'http://docs.djangoproject.com/en/2.1/intro/tutroial01/',
-         'views': 32},
+         'views': 77},
         {'title': 'Django rocks',
          'url': 'http://www.djangorocks.com/',
-         'views': 12},
+         'views': 145},
         {'title': 'How to Tango with Django',
          'url': 'http://www.tangowithdjango.com/',
-         'views': 20}
+         'views': 34}
     ]
     other_pages = [
         {'title': 'Bottle',
          'url': 'http://bottlepy.org/docs/dev/',
-         'views': 54},
+         'views': 155},
         {'title': 'Flask',
          'url': 'http://flask.pocoo.org',
-         'views': 64}
+         'views': 16}
     ]
     cats = {'Python': {'pages': python_pages, 'views': 128, 'likes': 64},
             'Django': {'pages': django_pages, 'views': 64, 'likes': 32},
